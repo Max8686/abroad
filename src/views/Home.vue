@@ -2,6 +2,7 @@
   <div class="home">
     <Top />
     <Header/>
+    <foots/>
     <footer>
       <div>
         <img src="../assets/scroll_02.png" alt="" />
@@ -22,11 +23,15 @@
 <script>
 import Top from "../components/top.vue";
 import Header from "../components/header.vue";
+import foots from '@/components/foots'
+import Foots from '../components/foots.vue';
 export default {
   name: "Home",
   components: {
     Top,
     Header,
+    foots,
+    Foots
   },
 };
 
