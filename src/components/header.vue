@@ -120,9 +120,9 @@
   color: #36477a;
 }
 ul > li {
-  width: 50%;
+  // width: 50%;
   list-style: none;
-  font-size: 1rem;
+  // font-size: 1rem;
   line-height: 25px;
 }
 .tupian > img {
@@ -132,7 +132,7 @@ ul > li {
   text-align: center;
 }
 .KK>p{
-    font-size: 25px;
+    font-size: 16px;
     font-family: "微软雅黑";
     color:#555555
 }
