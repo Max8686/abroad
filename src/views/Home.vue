@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <Top />
+    <Header/>
     <footer>
       <div>
         <img src="../assets/scroll_02.png" alt="" />
@@ -20,12 +21,15 @@
 
 <script>
 import Top from "../components/top.vue";
+import Header from "../components/header.vue";
 export default {
   name: "Home",
   components: {
     Top,
+    Header,
   },
 };
+
 </script>
 <style lang="less">
 .home {
