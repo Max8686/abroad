@@ -1,6 +1,8 @@
 <template>
   <div class="home">
     <Top />
+    <Zixun />
+    <Guihua/>
     <Header/>
     <footer>
       <div>
@@ -20,6 +22,8 @@
 </template>
 
 <script>
+import Zixun from '../components/Zixun.vue'
+import Guihua from '../components/Guihua.vue'
 import Top from "../components/top.vue";
 import Header from "../components/header.vue";
 export default {
@@ -27,6 +31,8 @@ export default {
   components: {
     Top,
     Header,
+    Zixun,
+    Guihua
   },
 };
 
